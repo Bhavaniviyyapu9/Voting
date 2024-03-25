@@ -1,0 +1,22 @@
+form{
+    width:1000px;
+    display: inline-block;
+    background-image: radial-gradient(rgb(155, 49, 155), rgb(161, 222, 161), rgb(174, 110, 110)) 
+}
+
+label{
+    width: 400px;
+    margin: 5%;
+}
+
+input{
+    width: 300px;
+}
+
+.total_comp{
+    text-align: center;
+    /* background-image: radial-gradient(rgb(155, 49, 155), rgb(26, 121, 26), rgb(157, 36, 36)) */
+}
+small{
+    color: antiquewhite;
+}

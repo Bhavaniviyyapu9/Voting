@@ -1,0 +1,17 @@
+/* fieldset{
+    width: 500px;
+} */
+form{
+    width:500px;
+    display: inline-block;
+}
+
+label,input{
+    width: 200px;
+    margin: 5%;
+}
+
+.total_comp{
+    text-align: center;
+    background-image: linear-gradient(lightblue, yellow, pink);
+}

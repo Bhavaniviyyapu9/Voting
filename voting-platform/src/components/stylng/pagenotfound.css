@@ -1,0 +1,7 @@
+.main_container{
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: 40px;
+}
