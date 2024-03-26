@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header';
+import "./stylng/casting.css"
 
 function Casting() {
   const [votedFor, setVotedFor] = useState(null);
@@ -16,15 +17,18 @@ function Casting() {
   return (
     
 
-    <div className='main_container'>
+    <div>
         <Header/>
-        <h1>Vote for your favourite one</h1>
-      <button disabled={!!votedFor} onClick={() => handleVote('Murali')}>
-        Vote for Murali
-      </button>
-      <button disabled={!!votedFor} onClick={() => handleVote('Bhavani')}>
-        Vote for Bhavani
-      </button>
+        <div className='main_container'> 
+          <h1>Vote for your favourite one</h1>
+          <button id="button" disabled={!!votedFor} onClick={() => handleVote('Murali')}>
+            Vote for Murali
+          </button>
+          <button id="button" disabled={!!votedFor} onClick={() => handleVote('Bhavani')}>
+            Vote for Bhavani
+          </button>
+        </div>
+      
     </div>
   );
 }

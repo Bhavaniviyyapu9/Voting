@@ -5,8 +5,10 @@ nav{
     background-color: aquamarine;
 }
 button{
-    padding: 3px;
+    padding: 20px;
     margin: 20px;
     color:antiquewhite;
-    background-color: magenta;
+    background-color: rgb(92, 146, 222);
+    border: 0px;
+    border-radius: 50%;
 }

@@ -2,15 +2,23 @@
     width: 500px;
 } */
 form{
-    width:500px;
     display: inline-block;
+    padding: 10px;
+    /* background-image: radial-gradient(black, green, yellow); */
 }
 
-label,input{
+form label{
+    display: inline-block;
+    width: 120px;
+    }
+form input{
+    display: inline-block;
     width: 200px;
-    margin: 5%;
 }
 
+form div{
+    margin: 5px;
+}
 .total_comp{
     text-align: center;
     background-image: linear-gradient(lightblue, yellow, pink);

@@ -40,6 +40,10 @@ function SignUp() {
                     <label>Village</label>
                     <input></input>
                 </div>
+
+                <div>
+                  <button>Sign Up</button>
+                </div>
             </fieldset>
         </form>
       </div>
