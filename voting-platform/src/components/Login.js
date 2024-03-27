@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-import SignUp from './SignUp'
 import { Link, useNavigate } from 'react-router-dom'
 import './stylng/login.css' ;
 import Header from './Header';
@@ -14,9 +13,10 @@ function Login() {
     <div className='total_comp'>
       <Header/>
       <div>
-        <h1>Login</h1>
+        
         <form>
             <fieldset>
+              <legend>Login</legend>
             <div>
                 <label>Email id</label>
                 <input ref={emailInputRef}></input>
@@ -27,7 +27,7 @@ function Login() {
                 <input ref={passwordInputRef}></input><br></br>
                 <small>atleast one special character,Uppercase,Lowercase,number</small>
             </div>
-            <button onClick={()=>{
+            <button type='button' onClick={()=>{
               let typedEmail = emailInputRef.current.value;
               let typedPassword = passwordInputRef.current.value;
               if (typedEmail == "bhavaniviyyapu9@gmail.com" && typedPassword == "bhavani") {
@@ -46,7 +46,9 @@ function Login() {
       <p>No account? Sign Up</p>
       <Link to="/SignUP">Sign up</Link> <br/>
       <Link to="/ContactUs">contact us</Link>
-
+      <br/>
+      <br/>
+      <br/>
       
     </div>
   )

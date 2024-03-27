@@ -25,3 +25,8 @@ form div{
 small{
     color: antiquewhite;
 }
+
+.Profilepic{
+    width: 90px;
+    height: 90px;
+}

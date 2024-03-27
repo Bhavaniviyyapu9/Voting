@@ -5,6 +5,7 @@ form{
     display: inline-block;
     padding: 10px;
     /* background-image: radial-gradient(black, green, yellow); */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 form label{
@@ -17,7 +18,13 @@ form input{
 }
 
 form div{
-    margin: 5px;
+    margin: 20px;
+}
+form legend{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
 }
 .total_comp{
     text-align: center;
